@@ -1,0 +1,25 @@
+{
+  "name": "mostly-benchmark",
+  "version": "1.0.0",
+  "description": "Mostly microservices benchmark",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "bench": "node index.js",
+    "debug": "node --nolazy --inspect-brk=6820 index.js",
+    "deps": "npm-check -u"
+  },
+  "keywords": [],
+  "author": "forafish",
+  "license": "MIT",
+  "dependencies": {
+    "benchmarkify": "2.1.0",
+    "bluebird": "3.5.0",
+    "feathers-memory": "^1.1.0",
+    "lodash": "4.17.4",
+    "nats": "0.7.20"
+  },
+  "devDependencies": {
+    "npm-check": "5.4.4"
+  }
+}
