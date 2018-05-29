@@ -1,6 +1,5 @@
 "use strict";
 
-let Promise = require("bluebird");
 let Benchmarkify = require("benchmarkify");
 
 let benchmark = new Benchmarkify("Mostly microservices benchmark").printHeader();
