@@ -1,5 +1,3 @@
-"use strict";
-
 let Benchmarkify = require("benchmarkify");
 
 let benchmark = new Benchmarkify("Mostly microservices benchmark").printHeader();
