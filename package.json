@@ -16,7 +16,7 @@
     "benchmarkify": "2.1.0",
     "feathers-memory": "^1.1.0",
     "lodash": "4.17.4",
-    "nats": "0.7.20"
+    "nats": "^1.0.0"
   },
   "devDependencies": {
     "npm-check": "5.4.4"
