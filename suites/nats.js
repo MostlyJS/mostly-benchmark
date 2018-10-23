@@ -37,7 +37,7 @@ let feather2;
 (function () {
 
   const mostly = require('mostly-node');
-  const feathers = require('mostly-feathers').default;
+  const feathers = require('mostly-feathers');
   const memory = require('feathers-memory');
   const nats = require('nats').connect("nats://localhost:4222");
 
@@ -68,6 +68,7 @@ let feather2;
 })();
 
 // mostly-mongoose
+/*
 let mongoose1;
 (function () {
 
@@ -91,6 +92,7 @@ let mongoose1;
   });
 
 })();
+*/
 
 setTimeout(() => {
 
@@ -101,7 +103,7 @@ setTimeout(() => {
     feather1.close();
     feather2.close();
 
-    mongoose1.close();
+    //mongoose1.close();
   });
 
 }, 10000);
